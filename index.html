@@ -1,33 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Kung Fungi | Cultivamos hongos gourmet</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/198/mushroom_1f344.png">
-    <title>Kung Fungi | Cultivamos hongos gourmet</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700&display=swap" rel="stylesheet">
 
     <style>
       body {
+        max-width: 100%;
         text-align: center;
+        color: #525f7f;
       }
+
+      #container {
+        margin: 0 auto;
+        width: 800px;
+        font-family: 'Lato', sans-serif;
+      }
+
+      p {
+        font-size: 24px;
+      }
+
+      .product { font-weight: 700; }
     </style>
   </head>
   <body>
-    <header>
-      <h1>Kung Fungi</h1>
-    </header>
+    <div id="container">
+      <header>
+        <h1>Kung Fungi</h1>
+      </header>
 
-    <h2>
-      Estamos incubando. Pronto vas a poder hacer tus pedidos online.
-    </h2>
-    <h3>Simple, rápido, y delicioso.</h3>
+      <section id="intro">
+        <p>
+          Somos un pequeño laboratorio biotecnológico situado en Ciudad Autónoma de Buenos Aires. Cultivamos <span class="product">hongos de uso gastronómico y medicinal</span>, y ediciones limitadas de <span class="product">microgreens</span>, <span class="product">kombucha</span> y <span class="product">yogur</span>.
+        </p>
+      </section>
 
-    <p>
-      Si te interesa recibir información sobre nuestros productos y servicios, sumate a nuestra <a href="http://eepurl.com/gDB0-H"> lista de correo</a>.
-    </p>
-    <p>
-      Si tenés alguna duda, o necesitás contactarnos, escribimos a <a href ="mailto:hola@kungfungi.com.ar">hola@kungfungi.com.ar</a>
-    </p>
+      <section id="products">
+        <p>
+          Si querés recibir información actualizada sobre nuestros productos y servicios, sumate a nuestra <a href="http://eepurl.com/gDB0-H"> lista de correo</a> para estar al día.
+        </p>
+      </section>
+
+      <section id="help">
+        <p>
+          Si tenés alguna duda o necesitás contactarnos por cualquier otro motivo, escribimos a <a href ="mailto:hola@kungfungi.com.ar">hola@kungfungi.com.ar</a>.
+        </p>
+      </secton>
+    </div>
 
     <script>
       window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
